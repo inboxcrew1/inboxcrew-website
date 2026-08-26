@@ -1,0 +1,157 @@
+export interface ServiceItem {
+  id: string;
+  slug: string;
+  number: string;
+  title: string;
+  shortDesc: string;
+  fullDesc: string;
+  iconName: string;
+  systemCode: string;
+  deliverables: string[];
+  pricingHint: string;
+  popular?: boolean;
+}
+
+export const SERVICES_LIST: ServiceItem[] = [
+  {
+    id: 'website-development',
+    slug: 'website-development',
+    number: '01',
+    title: 'Website Development',
+    shortDesc: 'High-performance websites designed to turn attention into measurable business action.',
+    fullDesc: 'From single-page startup launches to complex multi-tier web applications, InboxCrew engineers fast, responsive, and SEO-optimized web experiences built on modern React, Next.js, and TypeScript architectures.',
+    iconName: 'globe',
+    systemCode: 'WEB_ENGINE',
+    deliverables: [
+      'Custom Responsive UI/UX Design',
+      'Mobile-First Architecture & Speed Optimization',
+      'Contact & Lead Capture Forms with WhatsApp Integration',
+      'Google Maps & Local Search Schema Integration',
+      'On-Page Technical SEO & Analytics Setup',
+      'Content Management System (CMS) Integration',
+    ],
+    pricingHint: 'Starting from ₹6,000 / $69',
+    popular: true,
+  },
+  {
+    id: 'ecommerce',
+    slug: 'ecommerce',
+    number: '02',
+    title: 'E-Commerce Development',
+    shortDesc: 'Modern online stores built for strong product presentation and scalable conversion.',
+    fullDesc: 'We build high-converting direct-to-consumer (D2C) and B2B online storefronts with seamless checkout funnels, automated inventory management, payment gateways, and sub-second page loads.',
+    iconName: 'cart',
+    systemCode: 'ECOM_CORE',
+    deliverables: [
+      'Up to 100+ Product Listings & Categories Setup',
+      'Seamless Shopping Cart & 1-Click Checkout',
+      'Razorpay, Stripe & UPI Payment Gateway Integration',
+      'Automated Order & Shipping Tracking Dashboard',
+      'WhatsApp Order Alerts & Cart Recovery Funnels',
+      'Admin Training & Ongoing Technical Support',
+    ],
+    pricingHint: 'Starting from ₹25,000 / $299',
+    popular: true,
+  },
+  {
+    id: 'customer-support',
+    slug: 'customer-support',
+    number: '03',
+    title: 'Customer Support Outsourcing',
+    shortDesc: 'Dedicated multilingual support teams, live chat, email, phone, and CRM management.',
+    fullDesc: 'Empower your business with 24/7 dedicated customer support specialists trained on your custom SOPs. We handle ticket resolution, live chat, voice support, technical troubleshooting, and CRM updates.',
+    iconName: 'support',
+    systemCode: 'SUPPORT_NODE',
+    deliverables: [
+      'Email & Helpdesk Ticket Resolution',
+      'Real-Time Live Chat & Web Widget Management',
+      'Inbound & Outbound Phone Support',
+      'Custom SOP Training & Quality Assurance (QA)',
+      'CRM, Shopify & Amazon Seller Support Management',
+      'Weekly SLA Monitoring & Performance Reports',
+    ],
+    pricingHint: 'Starting from $249 / month',
+    popular: true,
+  },
+  {
+    id: 'branding',
+    slug: 'branding',
+    number: '04',
+    title: 'Branding & Visual Identity',
+    shortDesc: 'Distinctive visual identities that make businesses recognizable, memorable, and trusted.',
+    fullDesc: 'We craft iconic brand identities from the ground up: memorable logos, typography systems, comprehensive brand guidelines, packaging, and digital social media kits that resonate with your ideal customers.',
+    iconName: 'branding',
+    systemCode: 'BRAND_IDENTITY',
+    deliverables: [
+      'Custom Vector Logo Design & Iconography',
+      'Typography & Color Palette Guidelines',
+      'Business Cards, Letterheads & Brochure Collaterals',
+      'Social Media Branding Kits & Templates',
+      'Google Business Profile & WhatsApp Business Setup',
+      'Complete Brand Book & Asset Exports (SVG/PDF/PNG)',
+    ],
+    pricingHint: 'Logo from ₹2,500 | Full Kit ₹3,000',
+    popular: false,
+  },
+  {
+    id: 'digital-marketing',
+    slug: 'digital-marketing',
+    number: '05',
+    title: 'Instagram Management & Growth',
+    shortDesc: 'Strategic social presence, viral reels editing, and ROI-driven Meta Ads campaigns.',
+    fullDesc: 'Turn social channels into consistent revenue streams. InboxCrew manages your entire Instagram and digital marketing lifecycle—from high-retention reels editing to targeted Meta Ads and community management.',
+    iconName: 'marketing',
+    systemCode: 'GROWTH_ENGINE',
+    deliverables: [
+      '12 to 30 High-Impact Graphic Posts & Stories Monthly',
+      '8 to 15 High-Retention Reels Editing with Subtitles & Effects',
+      'Strategic Caption Writing & Targeted Hashtag Research',
+      'Monthly Content Calendar & Campaign Planning',
+      'Community Management & Direct Message Engagement',
+      'Monthly Growth & Conversion Analytics Report',
+    ],
+    pricingHint: 'Starting from ₹8,000 / month',
+    popular: true,
+  },
+  {
+    id: 'content-shoots',
+    slug: 'content-creation-shoots',
+    number: '06',
+    title: 'Content Creation & Business Shoots',
+    shortDesc: 'On-site video shoots, product photography, studio retouching, and viral editing.',
+    fullDesc: 'High-definition visual production designed for modern e-commerce and local businesses. We provide professional on-site business shoots, studio product photography, and dynamic video edits.',
+    iconName: 'camera',
+    systemCode: 'STUDIO_PROD',
+    deliverables: [
+      'On-Location Store, Office & Team Photoshoots',
+      'Studio Product Photography with High-End Retouching',
+      'Reels Shoot & Editing Sessions with Lighting & Audio',
+      '4K Social-Ready Vertical Video Exports',
+      'Color Grading, Sound Design & Dynamic Captions',
+      'High-Resolution Cloud Delivery with Commercial Usage Rights',
+    ],
+    pricingHint: 'Reels from ₹500 | Shoots from ₹2,500',
+    popular: false,
+  },
+  {
+    id: 'digital-growth-package',
+    slug: 'digital-growth-package',
+    number: '07',
+    title: 'All-In-One Digital Growth Package',
+    shortDesc: 'Complete business launch solution: Website, Instagram, Branding, and Business Setup.',
+    fullDesc: 'The ultimate launchpad for new businesses and established brands going online for the first time. We handle everything from professional website design to social media launch, branding, and Google setup.',
+    iconName: 'rocket',
+    systemCode: 'LAUNCH_ALL_IN_ONE',
+    deliverables: [
+      'Professional Custom Business Website',
+      'Complete Instagram Profile Setup & Launch Graphics',
+      'Verified Google Business Profile Setup & Optimization',
+      'WhatsApp Business Automated Catalog & Chat Setup',
+      'Brand Identity, Vector Logo & Stationery Design',
+      'Initial Launch Content & Reels Video Creation',
+      '1-on-1 Digital Marketing Consultation & Strategy',
+    ],
+    pricingHint: '₹35,000 (All-Inclusive One-Time)',
+    popular: true,
+  },
+];
