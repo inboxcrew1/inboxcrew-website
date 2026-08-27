@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "vite preview --port 3000 --host"
+    "start": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "@types/react": "^18.3.12",
