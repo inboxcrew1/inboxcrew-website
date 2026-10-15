@@ -238,8 +238,11 @@ export const Hero: React.FC<HeroProps> = ({ isEntered, onOpenContact }) => {
               <span className="font-bold tracking-wider">CREATIVE DIGITAL LAB</span>
             </div>
 
-            {/* Main Headline: BUILD. BRAND. GROW. */}
+            {/* Main Headline: BUILD. BRAND. GROW. with Local SEO Intent */}
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white uppercase leading-[1.02] mb-6 font-sans">
+              <span className="block text-[11px] sm:text-xs font-mono tracking-widest text-cyan-400 font-bold mb-3 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                DIGITAL MARKETING &amp; WEBSITE DEVELOPMENT COMPANY IN BULANDSHAHR
+              </span>
               <span className="block drop-shadow-[0_8px_20px_rgba(0,0,0,0.9)]">
                 <ScrambleIn text="BUILD." triggered={isEntered} delay={200} />
               </span>

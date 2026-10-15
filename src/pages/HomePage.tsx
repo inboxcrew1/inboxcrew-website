@@ -24,14 +24,15 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenContactWithPackage }) 
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     name: 'InboxCrew',
-    url: 'https://inboxcrew.in',
-    logo: 'https://inboxcrew.in/assets/images/inboxcrew-logo.png',
-    image: 'https://inboxcrew.in/assets/images/hero-visual.png',
+    url: 'https://www.inboxcrew.in',
+    logo: 'https://www.inboxcrew.in/assets/images/logo.png',
+    image: 'https://www.inboxcrew.in/assets/images/hero-visual.png',
     telephone: '+918534040174',
     email: 'info@inboxcrew.in',
-    priceRange: '₹500 - ₹35000 / $69 - $1499',
+    priceRange: '₹6000 - ₹35000',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Main Market Road',
       addressLocality: 'Bulandshahr',
       addressRegion: 'Uttar Pradesh',
       postalCode: '203001',
@@ -39,10 +40,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenContactWithPackage }) 
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: '28.4069',
-      longitude: '77.8498',
+      latitude: 28.4070,
+      longitude: 77.8498,
     },
-    areaServed: ['Bulandshahr', 'Noida', 'Greater Noida', 'Gurugram', 'Delhi NCR', 'Hapur', 'Khurja', 'Aligarh', 'Sikandrabad', 'India', 'Worldwide'],
+    areaServed: ['Bulandshahr', 'Khurja', 'Sikandrabad', 'Anupshahr', 'Jahangirabad', 'Noida', 'Greater Noida', 'Hapur', 'Aligarh', 'Delhi NCR'],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -56,8 +57,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenContactWithPackage }) 
   return (
     <div className="relative w-full flex flex-col">
       <SEOHead
-        title="InboxCrew | Website Development, Digital Growth & Customer Support Agency"
-        description="InboxCrew builds high-performance websites, distinctive brands, digital growth systems, and 24/7 outsourced customer support for ambitious businesses in India and worldwide."
+        title="InboxCrew | Digital Marketing & Website Design in Bulandshahr"
+        description="Looking for website design, digital marketing or SEO services in Bulandshahr? Explore InboxCrew's business growth solutions and get in touch."
         canonicalPath="/"
         schema={homeSchema}
       />

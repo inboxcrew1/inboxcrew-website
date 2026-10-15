@@ -263,6 +263,93 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
             ))}
           </div>
 
+          {/* 4. Local SEO Directory (Bulandshahr & Regional NCR Hubs) */}
+          <div className="mb-12 pt-8 border-t border-blue-500/20">
+            <div className="flex items-center gap-2 mb-6">
+              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
+              <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-widest font-sans">
+                REGIONAL DIRECTORY // BULANDSHAHR &amp; DELHI NCR SERVICES
+              </h4>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-[11px]">
+              {/* Group A: Core Services */}
+              <div className="space-y-2">
+                <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
+                  Core Agency Services
+                </span>
+                <ul className="space-y-1.5 text-zinc-400">
+                  <li><Link to="/digital-marketing-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Digital Marketing Bulandshahr</Link></li>
+                  <li><Link to="/website-designing-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Designing Company</Link></li>
+                  <li><Link to="/website-development-bulandshahr" className="hover:text-blue-300 transition-colors">Website Development Bulandshahr</Link></li>
+                  <li><Link to="/seo-services-bulandshahr" className="hover:text-blue-300 transition-colors">SEO Services &amp; Maps 3-Pack</Link></li>
+                  <li><Link to="/social-media-marketing-bulandshahr" className="hover:text-blue-300 transition-colors">Social Media &amp; Reels Marketing</Link></li>
+                  <li><Link to="/google-ads-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Google Ads &amp; PPC Agency</Link></li>
+                  <li><Link to="/meta-ads-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Meta Ads (FB &amp; Instagram)</Link></li>
+                  <li><Link to="/business-branding-bulandshahr" className="hover:text-blue-300 transition-colors">Business Branding &amp; Logos</Link></li>
+                  <li><Link to="/content-marketing-bulandshahr" className="hover:text-blue-300 transition-colors">Content Marketing &amp; Copywriting</Link></li>
+                </ul>
+              </div>
+
+              {/* Group B: Business Web Solutions */}
+              <div className="space-y-2">
+                <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
+                  Website &amp; Business Solutions
+                </span>
+                <ul className="space-y-1.5 text-zinc-400">
+                  <li><Link to="/business-website-design-bulandshahr" className="hover:text-blue-300 transition-colors">Business Website Design</Link></li>
+                  <li><Link to="/ecommerce-website-development-bulandshahr" className="hover:text-blue-300 transition-colors">E-Commerce Store Development</Link></li>
+                  <li><Link to="/landing-page-design-bulandshahr" className="hover:text-blue-300 transition-colors">High-Converting Landing Pages</Link></li>
+                  <li><Link to="/website-redesign-bulandshahr" className="hover:text-blue-300 transition-colors">Website Redesign &amp; Upgrades</Link></li>
+                  <li><Link to="/website-maintenance-bulandshahr" className="hover:text-blue-300 transition-colors">Website Maintenance &amp; Care</Link></li>
+                  <li><Link to="/website-speed-optimization-bulandshahr" className="hover:text-blue-300 transition-colors">Speed &amp; Core Web Vitals</Link></li>
+                  <li><Link to="/whatsapp-business-automation-bulandshahr" className="hover:text-blue-300 transition-colors">WhatsApp Business Automation</Link></li>
+                  <li><Link to="/lead-generation-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Lead Generation Pipelines</Link></li>
+                </ul>
+              </div>
+
+              {/* Group C: Industry Solutions */}
+              <div className="space-y-2">
+                <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
+                  Industry-Specific Solutions
+                </span>
+                <ul className="space-y-1.5 text-zinc-400">
+                  <li><Link to="/digital-marketing-for-hospitals-bulandshahr" className="hover:text-blue-300 transition-colors">Marketing for Hospitals</Link></li>
+                  <li><Link to="/digital-marketing-for-doctors-bulandshahr" className="hover:text-blue-300 transition-colors">Websites for Doctors &amp; Clinics</Link></li>
+                  <li><Link to="/real-estate-marketing-bulandshahr" className="hover:text-blue-300 transition-colors">Real Estate Marketing Funnels</Link></li>
+                  <li><Link to="/website-for-property-dealers-bulandshahr" className="hover:text-blue-300 transition-colors">Websites for Property Dealers</Link></li>
+                  <li><Link to="/digital-marketing-for-schools-bulandshahr" className="hover:text-blue-300 transition-colors">School Admission Campaigns</Link></li>
+                  <li><Link to="/website-design-for-coaching-centres-bulandshahr" className="hover:text-blue-300 transition-colors">Coaching Centre Portals</Link></li>
+                  <li><Link to="/digital-marketing-for-restaurants-bulandshahr" className="hover:text-blue-300 transition-colors">Restaurants &amp; Dining Marketing</Link></li>
+                  <li><Link to="/website-for-hotels-bulandshahr" className="hover:text-blue-300 transition-colors">Hotel &amp; Banquet Websites</Link></li>
+                  <li><Link to="/digital-marketing-for-manufacturers-bulandshahr" className="hover:text-blue-300 transition-colors">B2B Manufacturing Marketing</Link></li>
+                  <li><Link to="/digital-marketing-for-local-shops-bulandshahr" className="hover:text-blue-300 transition-colors">Local Retail Shops Footfall</Link></li>
+                </ul>
+              </div>
+
+              {/* Group D: Local Towns & Educational Guides */}
+              <div className="space-y-2">
+                <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
+                  Regional Towns &amp; Guides
+                </span>
+                <ul className="space-y-1.5 text-zinc-400">
+                  <li><Link to="/website-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Company Bulandshahr</Link></li>
+                  <li><Link to="/website-banwane-wali-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Banwane Wali Company</Link></li>
+                  <li><Link to="/affordable-website-design-bulandshahr" className="hover:text-blue-300 transition-colors">Affordable Web Design (₹6,000)</Link></li>
+                  <li><Link to="/website-design-cost-bulandshahr" className="hover:text-blue-300 transition-colors">Website Design Cost Guide (2026)</Link></li>
+                  <li><Link to="/marketing-agency-khurja" className="hover:text-blue-300 transition-colors">Marketing Agency Khurja</Link></li>
+                  <li><Link to="/marketing-agency-sikandrabad" className="hover:text-blue-300 transition-colors">Marketing Agency Sikandrabad</Link></li>
+                  <li><Link to="/marketing-agency-anupshahr" className="hover:text-blue-300 transition-colors">Marketing Agency Anupshahr</Link></li>
+                  <li><Link to="/marketing-agency-jahangirabad" className="hover:text-blue-300 transition-colors">Marketing Agency Jahangirabad</Link></li>
+                  <li><Link to="/how-to-create-a-business-website" className="hover:text-blue-300 transition-colors">How to Create a Business Website</Link></li>
+                  <li><Link to="/local-seo-guide-for-businesses" className="hover:text-blue-300 transition-colors">Google Maps Local SEO Guide</Link></li>
+                  <li><Link to="/website-vs-social-media-for-business" className="hover:text-blue-300 transition-colors">Website vs Social Media</Link></li>
+                  <li><Link to="/how-to-get-leads-from-google" className="hover:text-blue-300 transition-colors">How to Get Leads from Google</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           {/* Mobile Mascot Visual Showcase */}
           <div className="block md:hidden mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-blue-500/30 bg-gradient-to-b from-blue-950/40 via-zinc-950/80 to-black p-4 flex items-center justify-between shadow-[0_0_30px_rgba(0,102,255,0.2)]">

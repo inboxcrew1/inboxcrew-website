@@ -10,10 +10,10 @@ interface SEOHeadProps {
 }
 
 export const SEOHead: React.FC<SEOHeadProps> = ({
-  title = 'InboxCrew — Build. Brand. Grow. | Digital Agency & Customer Support',
-  description = 'InboxCrew is a creative digital agency and customer support outsourcing partner helping businesses build websites, e-commerce, brand systems, and grow online.',
-  canonicalPath = '',
-  ogImage = 'https://inboxcrew.in/assets/images/hero-visual.png',
+  title = 'InboxCrew | Digital Marketing & Website Design in Bulandshahr',
+  description = 'Looking for website design, digital marketing or SEO services in Bulandshahr? Explore InboxCrew\'s business growth solutions and get in touch.',
+  canonicalPath = '/',
+  ogImage = 'https://www.inboxcrew.in/assets/images/hero-visual.png',
   ogType = 'website',
   schema,
 }) => {
@@ -31,7 +31,8 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     metaDesc.setAttribute('content', description);
 
     // 3. Update Canonical Tag
-    const canonicalUrl = `https://inboxcrew.in${canonicalPath}`;
+    const cleanPath = canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`;
+    const canonicalUrl = `https://www.inboxcrew.in${cleanPath === '/' ? '/' : cleanPath}`;
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');
@@ -50,12 +51,18 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
 
+    const ogImg = document.querySelector('meta[property="og:image"]');
+    if (ogImg) ogImg.setAttribute('content', ogImage);
+
     // 5. Update Twitter Tags
     const twTitle = document.querySelector('meta[property="twitter:title"]');
     if (twTitle) twTitle.setAttribute('content', title);
 
     const twDesc = document.querySelector('meta[property="twitter:description"]');
     if (twDesc) twDesc.setAttribute('content', description);
+
+    const twImg = document.querySelector('meta[property="twitter:image"]');
+    if (twImg) twImg.setAttribute('content', ogImage);
 
     // 6. Inject Dynamic JSON-LD Schema if provided
     let dynamicSchemaScript = document.getElementById('dynamic-page-schema');

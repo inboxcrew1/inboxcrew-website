@@ -21,6 +21,8 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { SEOContentPage } from './pages/SEOContentPage';
+import { SEO_PAGES_DATA } from './data/seoPagesData';
 
 // Modals & Cyber Layers
 import { ContactModal } from './components/ContactModal';
@@ -96,6 +98,16 @@ function AppContent() {
             <Route path="/blog/:slug" element={<BlogPostPage onOpenContactWithPackage={handleOpenContactWithPackage} />} />
             <Route path="/about" element={<AboutPage onOpenContactWithPackage={handleOpenContactWithPackage} />} />
             <Route path="/contact" element={<ContactPage />} />
+
+            {/* 39 Dedicated High-Intent Local & Core SEO Pages */}
+            {SEO_PAGES_DATA.map((page) => (
+              <Route
+                key={page.slug}
+                path={`/${page.slug}`}
+                element={<SEOContentPage page={page} onOpenContactWithPackage={handleOpenContactWithPackage} />}
+              />
+            ))}
+
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </ErrorBoundary>

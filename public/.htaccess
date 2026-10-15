@@ -1,8 +1,25 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # 1. Canonical Redirect: Enforce HTTPS & WWW (https://www.inboxcrew.in/)
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^inboxcrew\.in$ [NC]
+  RewriteRule ^(.*)$ https://www.inboxcrew.in/$1 [L,R=301]
+
+  # 2. Prevent directory indexing
+  Options -Indexes
+
+  # 3. SPA Fallback Routing for React
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
