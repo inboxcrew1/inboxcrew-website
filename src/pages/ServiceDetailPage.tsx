@@ -59,7 +59,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({ onOpenCont
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title={`${service.title} Services — InboxCrew Digital Lab`}
+        title={`${service.title} Services - InboxCrew Digital Lab`}
         description={service.fullDesc}
         canonicalPath={`/services/${service.slug}`}
         schema={serviceSchema}
@@ -120,7 +120,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({ onOpenCont
                 </div>
                 <div className="text-xs space-y-2 text-zinc-300">
                   <div><strong className="text-white">Pricing:</strong> {service.pricingHint}</div>
-                  <div><strong className="text-white">SLA Turnaround:</strong> 3–15 Business Days</div>
+                  <div><strong className="text-white">SLA Turnaround:</strong> 3-15 Business Days</div>
                   <div><strong className="text-white">Revision Policy:</strong> Full Iteration Support</div>
                 </div>
               </div>

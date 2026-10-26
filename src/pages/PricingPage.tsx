@@ -40,7 +40,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onOpenContactWithPacka
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Official Pricing & Packages (INR / USD) — InboxCrew Digital Lab"
+        title="Official Pricing & Packages (INR / USD) - InboxCrew Digital Lab"
         description="Transparent website development (from ₹6,000 / $69), Instagram management, ₹35,000 growth bundle, and customer support pricing (from $249/mo)."
         canonicalPath="/pricing"
         schema={pricingSchema}
@@ -101,7 +101,7 @@ export const PricingPage: React.FC<PricingPageProps> = ({ onOpenContactWithPacka
                   </ul>
                 </div>
                 <button
-                  onClick={() => onOpenContactWithPackage(`Customer Support — ${plan.name}`)}
+                  onClick={() => onOpenContactWithPackage(`Customer Support - ${plan.name}`)}
                   className="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold uppercase tracking-wider text-center cursor-pointer transition-all"
                 >
                   Select Support

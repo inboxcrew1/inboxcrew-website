@@ -11,7 +11,7 @@ export const ContactPage: React.FC = () => {
     phone: '',
     country: 'India (+91)',
     service: 'Website Development',
-    budget: '₹15,000 – ₹35,000',
+    budget: '₹15,000 - ₹35,000',
     message: '',
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -32,7 +32,7 @@ export const ContactPage: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Contact Us & Book a Consultation — InboxCrew"
+        title="Contact Us & Book a Consultation - InboxCrew"
         description="Connect with the InboxCrew team via phone (+91 8534040174), WhatsApp, email (info@inboxcrew.in), or project intake form. Fast 2-hour response time."
         canonicalPath="/contact"
         schema={contactSchema}
@@ -144,7 +144,7 @@ export const ContactPage: React.FC = () => {
                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                         className="w-full px-4 py-3 rounded-xl bg-black border border-blue-500/30 text-white text-xs focus:outline-none focus:border-blue-400 font-mono cursor-pointer"
                       >
-                        <option value="Website Development">Website Development (₹6k – ₹25k / $69 – $299)</option>
+                        <option value="Website Development">Website Development (₹6k - ₹25k / $69 - $299)</option>
                         <option value="E-Commerce Development">E-Commerce Store (₹25,000 / $299)</option>
                         <option value="Customer Support Outsourcing">Customer Support (Starting $249/mo)</option>
                         <option value="Instagram Growth & Reels">Instagram Management & Growth</option>
@@ -161,10 +161,10 @@ export const ContactPage: React.FC = () => {
                         onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
                         className="w-full px-4 py-3 rounded-xl bg-black border border-blue-500/30 text-white text-xs focus:outline-none focus:border-blue-400 font-mono cursor-pointer"
                       >
-                        <option value="₹6,000 – ₹15,000">₹6,000 – ₹15,000 (Starter)</option>
-                        <option value="₹15,000 – ₹35,000">₹15,000 – ₹35,000 (Professional / Bundle)</option>
-                        <option value="₹35,000 – ₹1,00,000+">₹35,000 – ₹1,00,000+ (Scaleup)</option>
-                        <option value="$249 – $899 / mo">$249 – $899 / mo (Customer Support)</option>
+                        <option value="₹6,000 - ₹15,000">₹6,000 - ₹15,000 (Starter)</option>
+                        <option value="₹15,000 - ₹35,000">₹15,000 - ₹35,000 (Professional / Bundle)</option>
+                        <option value="₹35,000 - ₹1,00,000+">₹35,000 - ₹1,00,000+ (Scaleup)</option>
+                        <option value="$249 - $899 / mo">$249 - $899 / mo (Customer Support)</option>
                         <option value="$1,000+ / mo">$1,000+ / mo (Enterprise)</option>
                       </select>
                     </div>

@@ -43,7 +43,7 @@ export const BlogPostPage: React.FC<BlogPostPageProps> = ({ onOpenContactWithPac
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title={`${post.title} — InboxCrew Guide`}
+        title={`${post.title} - InboxCrew Guide`}
         description={post.excerpt}
         canonicalPath={`/blog/${post.slug}`}
         schema={postSchema}

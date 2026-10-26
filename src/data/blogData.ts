@@ -24,13 +24,13 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
 ### Understanding Website Development Costs in India
 
-In 2026, a business website is no longer a static digital brochure—it is your primary 24/7 sales representative, conversion engine, and brand ambassador. However, website pricing across India varies drastically, often leaving business owners confused.
+In 2026, a business website is no longer a static digital brochure - it is your primary 24/7 sales representative, conversion engine, and brand ambassador. However, website pricing across India varies drastically, often leaving business owners confused.
 
 At InboxCrew, we believe in **100% upfront, transparent pricing** without hidden charges. Here is a clear breakdown of what you can expect to invest depending on your business model.
 
 ---
 
-### 1. Starter & Single-Page Websites (₹6,000 – ₹10,000 / $69 – $120)
+### 1. Starter & Single-Page Websites (₹6,000 - ₹10,000 / $69 - $120)
 **Best for:** Local shops, restaurants, independent professionals, clinics, and new startups.
 
 * **Key Deliverables:** Single-page responsive layout, fast load times, WhatsApp click-to-chat, contact form, Google Maps integration, and basic on-page SEO.
@@ -38,7 +38,7 @@ At InboxCrew, we believe in **100% upfront, transparent pricing** without hidden
 
 ---
 
-### 2. Multi-Page Custom Business Websites (₹15,000 – ₹30,000 / $179 – $350)
+### 2. Multi-Page Custom Business Websites (₹15,000 - ₹30,000 / $179 - $350)
 **Best for:** Established small-to-medium businesses, corporate consultancies, educational institutes, and healthcare providers.
 
 * **Key Deliverables:** 5 to 10 custom pages (Home, About, Services, Case Studies, Contact), bespoke UI/UX design, blog setup, speed optimization, and lead capture forms.
@@ -46,7 +46,7 @@ At InboxCrew, we believe in **100% upfront, transparent pricing** without hidden
 
 ---
 
-### 3. E-Commerce Platforms & Online Stores (₹25,000 – ₹60,000 / $299 – $750)
+### 3. E-Commerce Platforms & Online Stores (₹25,000 - ₹60,000 / $299 - $750)
 **Best for:** D2C brands, retail stores, clothing boutiques, and manufacturers selling direct to consumers.
 
 * **Key Deliverables:** Up to 100+ products, shopping cart, secure payment gateway (Razorpay/Stripe/UPI), automated order management, shipping tracking, and WhatsApp order confirmation.
@@ -135,8 +135,8 @@ Customer support outsourcing with InboxCrew allows businesses in India, the US, 
 ---
 
 ### The InboxCrew Support Onboarding Process:
-1. **SOP & Knowledge Base Ingestion (Days 1–3):** We document your brand tone, refund policies, FAQs, and ticket escalation protocols.
-2. **Agent Training & Shadowing (Days 4–5):** Dedicated agents undergo intensive simulated ticket testing and CRM workflow reviews.
+1. **SOP & Knowledge Base Ingestion (Days 1-3):** We document your brand tone, refund policies, FAQs, and ticket escalation protocols.
+2. **Agent Training & Shadowing (Days 4-5):** Dedicated agents undergo intensive simulated ticket testing and CRM workflow reviews.
 3. **Live Deployment (Day 6+):** Agents begin managing frontline live chat, email helpdesks, and phone lines with strict SLA tracking.
 4. **Weekly Quality Audits:** Our QA Team Lead reviews ticket logs to maintain 98%+ customer satisfaction.
     `,

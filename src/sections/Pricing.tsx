@@ -37,7 +37,7 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPackage }) => {
       name: 'Starter Website',
       price: '₹6,000',
       period: 'one-time',
-      delivery: '3–5 DAYS',
+      delivery: '3-5 DAYS',
       badge: 'STARTER',
       subtitle: 'Perfect for startups, local shops, restaurants, and service providers.',
       features: [
@@ -57,11 +57,11 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPackage }) => {
       name: 'Professional Website',
       price: '₹15,000',
       period: 'one-time',
-      delivery: '7–10 DAYS',
+      delivery: '7-10 DAYS',
       badge: 'MOST POPULAR',
       subtitle: 'Ideal for growing businesses and established brands.',
       features: [
-        '5–10 Custom Pages',
+        '5-10 Custom Pages',
         'Premium UI/UX Design',
         'Mobile & Tablet Responsive',
         'Contact & Lead Capture Forms',
@@ -79,7 +79,7 @@ export const Pricing: React.FC<PricingProps> = ({ onSelectPackage }) => {
       name: 'E-Commerce Store',
       price: '₹25,000',
       period: 'one-time',
-      delivery: '10–15 DAYS',
+      delivery: '10-15 DAYS',
       badge: 'FULL COMMERCE',
       subtitle: 'Complete online selling & checkout solution.',
       features: [

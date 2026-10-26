@@ -1,4 +1,4 @@
-# INBOXCREW — World-Class Digital Agency & Customer Support Platform
+# INBOXCREW - World-Class Digital Agency & Customer Support Platform
 
 > **BUILD. BRAND. GROW.**
 > Official Website: [https://inboxcrew.in](https://inboxcrew.in)
@@ -15,7 +15,7 @@ An original, production-ready, cinematic digital agency and customer support out
   - Interactive 3D laptop & glass dashboard scene (`HeroDevice3D.tsx`).
   - Verified Trust Bar (250+ Projects Delivered, 100+ Businesses Served, 10+ Countries Reached, 98% CSAT).
 - **24/7 Customer Support Outsourcing Hub (`/customer-support`)**:
-  - Monthly plans ($249 – $1,499+/mo), hourly rates ($8 – $18/hr), dedicated agent teams ($399 – $1,499+/mo), and custom SOP add-ons.
+  - Monthly plans ($249 - $1,499+/mo), hourly rates ($8 - $18/hr), dedicated agent teams ($399 - $1,499+/mo), and custom SOP add-ons.
   - Interactive 3D Global Edge Node sphere (`SupportGlobe3D.tsx`).
 - **Interactive Pricing Matrix (`/pricing`)**:
   - **INR (₹) / USD ($) Currency Switcher** for domestic and global clients.

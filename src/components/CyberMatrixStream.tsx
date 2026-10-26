@@ -67,7 +67,7 @@ export const CyberMatrixStream: React.FC<CyberMatrixStreamProps> = ({
       if (elapsed < fpsInterval) return;
       lastTime = currentTime - (elapsed % fpsInterval);
 
-      // Clean transparent clear — NEVER opaque black
+      // Clean transparent clear - NEVER opaque black
       ctx.clearRect(0, 0, width, height);
       ctx.font = `${fontSize}px "Space Mono", monospace`;
 

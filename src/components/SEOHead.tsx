@@ -13,7 +13,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   title = 'InboxCrew | Digital Marketing & Website Design in Bulandshahr',
   description = 'Looking for website design, digital marketing or SEO services in Bulandshahr? Explore InboxCrew\'s business growth solutions and get in touch.',
   canonicalPath = '/',
-  ogImage = 'https://www.inboxcrew.in/assets/images/hero-visual.png',
+  ogImage = 'https://inboxcrew.in/assets/images/hero-visual.png',
   ogType = 'website',
   schema,
 }) => {
@@ -32,7 +32,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
 
     // 3. Update Canonical Tag
     const cleanPath = canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`;
-    const canonicalUrl = `https://www.inboxcrew.in${cleanPath === '/' ? '/' : cleanPath}`;
+    const canonicalUrl = `https://inboxcrew.in${cleanPath === '/' ? '/' : cleanPath}`;
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');

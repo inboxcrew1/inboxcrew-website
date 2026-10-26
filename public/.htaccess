@@ -2,10 +2,10 @@
   RewriteEngine On
   RewriteBase /
 
-  # 1. Canonical Redirect: Enforce HTTPS & WWW (https://www.inboxcrew.in/)
+  # 1. Canonical Redirect: Enforce HTTPS & Non-WWW (https://inboxcrew.in/)
   RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP_HOST} ^inboxcrew\.in$ [NC]
-  RewriteRule ^(.*)$ https://www.inboxcrew.in/$1 [L,R=301]
+  RewriteCond %{HTTP_HOST} ^www\.inboxcrew\.in$ [NC]
+  RewriteRule ^(.*)$ https://inboxcrew.in/$1 [L,R=301]
 
   # 2. Prevent directory indexing
   Options -Indexes

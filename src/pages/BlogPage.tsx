@@ -28,7 +28,7 @@ export const BlogPage: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Insights, Pricing Guides & Local SEO Articles — InboxCrew"
+        title="Insights, Pricing Guides & Local SEO Articles - InboxCrew"
         description="Read transparent guides on website development costs in India, local SEO strategies for Bulandshahr & Noida, and customer support outsourcing."
         canonicalPath="/blog"
         schema={blogSchema}

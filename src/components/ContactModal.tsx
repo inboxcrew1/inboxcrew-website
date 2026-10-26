@@ -10,13 +10,13 @@ interface ContactModalProps {
 }
 
 const SERVICE_OPTIONS = [
-  'Digital Growth Package — All-in-One Launch (₹35,000)',
+  'Digital Growth Package - All-in-One Launch (₹35,000)',
   'Professional Website (₹15,000)',
   'Starter Website (₹6,000)',
   'E-Commerce Store (₹25,000)',
-  'Instagram Management — Basic Growth (₹8,000/mo)',
-  'Instagram Management — Business Growth (₹15,000/mo)',
-  'Instagram Management — Premium Brand (₹25,000/mo)',
+  'Instagram Management - Basic Growth (₹8,000/mo)',
+  'Instagram Management - Business Growth (₹15,000/mo)',
+  'Instagram Management - Premium Brand (₹25,000/mo)',
   'Reels & Content Creation (From ₹500)',
   'Product Photography & Business Shoots (From ₹2,500)',
   'Branding Services & Visual Identity',
@@ -26,7 +26,7 @@ const SERVICE_OPTIONS = [
 export const ContactModal: React.FC<ContactModalProps> = ({
   isOpen,
   onClose,
-  initialService = 'Digital Growth Package — All-in-One Launch (₹35,000)',
+  initialService = 'Digital Growth Package - All-in-One Launch (₹35,000)',
 }) => {
   const [formData, setFormData] = useState({
     name: '',

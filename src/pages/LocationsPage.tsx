@@ -24,7 +24,7 @@ export const LocationsPage: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Local Service Areas — Bulandshahr, Noida, Delhi NCR & Western UP | InboxCrew"
+        title="Local Service Areas - Bulandshahr, Noida, Delhi NCR & Western UP | InboxCrew"
         description="InboxCrew provides local website development, digital marketing, and business branding across Bulandshahr, Noida, Greater Noida, Gurugram, Delhi NCR, and Western UP."
         canonicalPath="/locations"
         schema={locationsSchema}

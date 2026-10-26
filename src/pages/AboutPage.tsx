@@ -21,7 +21,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenContactWithPackage }
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="About Us — Mission, Vision & Engineering Philosophy | InboxCrew"
+        title="About Us - Mission, Vision & Engineering Philosophy | InboxCrew"
         description="InboxCrew is a creative digital technology agency and customer support partner headquartered in Bulandshahr with presence across Delhi NCR."
         canonicalPath="/about"
         schema={aboutSchema}
@@ -74,7 +74,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenContactWithPackage }
                 </div>
                 <h2 className="text-2xl font-bold text-white uppercase font-sans mb-4">OUR VISION</h2>
                 <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-                  To be recognized as India's premier creative technology laboratory—combining deep engineering rigor, cinematic aesthetics, and measurable commercial return for every client partner we serve.
+                  To be recognized as India's premier creative technology laboratory - combining deep engineering rigor, cinematic aesthetics, and measurable commercial return for every client partner we serve.
                 </p>
               </div>
             </div>

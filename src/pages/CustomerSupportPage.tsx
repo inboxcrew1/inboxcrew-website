@@ -28,7 +28,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
     },
     {
       question: 'How is Quality Assurance (QA) handled?',
-      answer: 'Our dedicated QA Team Leads review 15–20% of all handled customer tickets weekly, scoring empathy, policy adherence, accuracy, and first-contact resolution.',
+      answer: 'Our dedicated QA Team Leads review 15-20% of all handled customer tickets weekly, scoring empathy, policy adherence, accuracy, and first-contact resolution.',
     },
   ];
 
@@ -58,7 +58,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Customer Support Outsourcing | Dedicated 24/7 Support Teams — InboxCrew"
+        title="Customer Support Outsourcing | Dedicated 24/7 Support Teams - InboxCrew"
         description="Scalable customer support outsourcing: Email helpdesk, live chat, phone support, and CRM management starting at $249/mo. 98%+ CSAT guaranteed."
         canonicalPath="/customer-support"
         schema={supportSchema}
@@ -104,7 +104,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
 
             <div className="flex flex-wrap items-center gap-4">
               <button
-                onClick={() => onOpenContactWithPackage('Customer Support — Growth Plan ($499/mo)')}
+                onClick={() => onOpenContactWithPackage('Customer Support - Growth Plan ($499/mo)')}
                 className="px-6 py-3.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold uppercase tracking-wider shadow-[0_0_25px_rgba(0,102,255,0.4)] transition-all cursor-pointer flex items-center gap-2"
               >
                 <span>Build My Support Team</span>
@@ -205,7 +205,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
                   </div>
 
                   <button
-                    onClick={() => onOpenContactWithPackage(`Customer Support — ${plan.name} (${plan.price})`)}
+                    onClick={() => onOpenContactWithPackage(`Customer Support - ${plan.name} (${plan.price})`)}
                     className={`w-full py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-center transition-all cursor-pointer ${
                       plan.popular
                         ? 'bg-blue-600 hover:bg-blue-500 text-white shadow-[0_0_20px_rgba(0,102,255,0.5)]'
@@ -238,7 +238,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
                     <div className="flex items-center gap-4">
                       <span className="text-base font-bold text-cyan-400">{rate.rate}</span>
                       <button
-                        onClick={() => onOpenContactWithPackage(`Hourly Support — ${rate.service}`)}
+                        onClick={() => onOpenContactWithPackage(`Hourly Support - ${rate.service}`)}
                         className="px-4 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold uppercase tracking-wider transition-all cursor-pointer shrink-0"
                       >
                         Hire
@@ -272,7 +272,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
                   </ul>
                 </div>
                 <button
-                  onClick={() => onOpenContactWithPackage(`Dedicated Agent — ${agent.type} (${agent.price})`)}
+                  onClick={() => onOpenContactWithPackage(`Dedicated Agent - ${agent.type} (${agent.price})`)}
                   className="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold uppercase tracking-wider text-center cursor-pointer transition-all"
                 >
                   Deploy Agent
@@ -295,7 +295,7 @@ export const CustomerSupportPage: React.FC<CustomerSupportPageProps> = ({ onOpen
                   <p className="text-xs text-zinc-400 mb-4">{addon.description}</p>
                 </div>
                 <button
-                  onClick={() => onOpenContactWithPackage(`Support Add-On — ${addon.name} (${addon.price})`)}
+                  onClick={() => onOpenContactWithPackage(`Support Add-On - ${addon.name} (${addon.price})`)}
                   className="w-full py-2 rounded-lg bg-zinc-900 hover:bg-blue-950 text-blue-300 border border-blue-500/30 text-xs font-bold uppercase tracking-wider text-center cursor-pointer transition-all"
                 >
                   Add to Queue

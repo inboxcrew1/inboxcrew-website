@@ -291,7 +291,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                 </ul>
               </div>
 
-              {/* Group B: Business Web Solutions */}
+                            {/* Group B: Business Web Solutions */}
               <div className="space-y-2">
                 <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
                   Website &amp; Business Solutions
@@ -299,6 +299,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                 <ul className="space-y-1.5 text-zinc-400">
                   <li><Link to="/business-website-design-bulandshahr" className="hover:text-blue-300 transition-colors">Business Website Design</Link></li>
                   <li><Link to="/ecommerce-website-development-bulandshahr" className="hover:text-blue-300 transition-colors">E-Commerce Store Development</Link></li>
+                  <li><Link to="/shopify-store-development-bulandshahr" className="hover:text-blue-300 transition-colors">Shopify Store Development</Link></li>
+                  <li><Link to="/graphic-design-company-bulandshahr" className="hover:text-blue-300 transition-colors">Graphic Design &amp; Creative Studio</Link></li>
+                  <li><Link to="/small-business-digital-marketing-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Small Business Marketing Agency</Link></li>
                   <li><Link to="/landing-page-design-bulandshahr" className="hover:text-blue-300 transition-colors">High-Converting Landing Pages</Link></li>
                   <li><Link to="/website-redesign-bulandshahr" className="hover:text-blue-300 transition-colors">Website Redesign &amp; Upgrades</Link></li>
                   <li><Link to="/website-maintenance-bulandshahr" className="hover:text-blue-300 transition-colors">Website Maintenance &amp; Care</Link></li>
@@ -327,24 +330,27 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                 </ul>
               </div>
 
-              {/* Group D: Local Towns & Educational Guides */}
+                            {/* Group D: Local Towns & Educational Guides */}
               <div className="space-y-2">
                 <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider block">
-                  Regional Towns &amp; Guides
+                  Regional Towns &amp; Localities
                 </span>
                 <ul className="space-y-1.5 text-zinc-400">
-                  <li><Link to="/website-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Company Bulandshahr</Link></li>
-                  <li><Link to="/website-banwane-wali-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Banwane Wali Company</Link></li>
-                  <li><Link to="/affordable-website-design-bulandshahr" className="hover:text-blue-300 transition-colors">Affordable Web Design (₹6,000)</Link></li>
-                  <li><Link to="/website-design-cost-bulandshahr" className="hover:text-blue-300 transition-colors">Website Design Cost Guide (2026)</Link></li>
+                  <li><Link to="/best-marketing-agency-bulandshahr" className="hover:text-blue-300 transition-colors">Best Marketing Agency Bulandshahr</Link></li>
+                  <li><Link to="/digital-marketing-agency-kala-aam-bulandshahr" className="hover:text-blue-300 transition-colors">Kala Aam Commercial Hub</Link></li>
+                  <li><Link to="/digital-marketing-agency-transport-nagar-bulandshahr" className="hover:text-blue-300 transition-colors">Transport Nagar Hub</Link></li>
+                  <li><Link to="/digital-marketing-agency-ganga-nagar-bulandshahr" className="hover:text-blue-300 transition-colors">Ganga Nagar &amp; DM Colony</Link></li>
+                  <li><Link to="/digital-marketing-agency-gulaothi-bulandshahr" className="hover:text-blue-300 transition-colors">Gulaothi Trade Center</Link></li>
+                  <li><Link to="/digital-marketing-agency-siyana-bulandshahr" className="hover:text-blue-300 transition-colors">Siyana Commercial Zone</Link></li>
+                  <li><Link to="/website-developer-khurja" className="hover:text-blue-300 transition-colors">Website Developer Khurja</Link></li>
                   <li><Link to="/marketing-agency-khurja" className="hover:text-blue-300 transition-colors">Marketing Agency Khurja</Link></li>
+                  <li><Link to="/website-developer-sikandrabad" className="hover:text-blue-300 transition-colors">Website Developer Sikandrabad</Link></li>
                   <li><Link to="/marketing-agency-sikandrabad" className="hover:text-blue-300 transition-colors">Marketing Agency Sikandrabad</Link></li>
                   <li><Link to="/marketing-agency-anupshahr" className="hover:text-blue-300 transition-colors">Marketing Agency Anupshahr</Link></li>
                   <li><Link to="/marketing-agency-jahangirabad" className="hover:text-blue-300 transition-colors">Marketing Agency Jahangirabad</Link></li>
-                  <li><Link to="/how-to-create-a-business-website" className="hover:text-blue-300 transition-colors">How to Create a Business Website</Link></li>
-                  <li><Link to="/local-seo-guide-for-businesses" className="hover:text-blue-300 transition-colors">Google Maps Local SEO Guide</Link></li>
-                  <li><Link to="/website-vs-social-media-for-business" className="hover:text-blue-300 transition-colors">Website vs Social Media</Link></li>
-                  <li><Link to="/how-to-get-leads-from-google" className="hover:text-blue-300 transition-colors">How to Get Leads from Google</Link></li>
+                  <li><Link to="/affordable-website-design-bulandshahr" className="hover:text-blue-300 transition-colors">Affordable Web Design (₹6,000)</Link></li>
+                  <li><Link to="/website-design-cost-bulandshahr" className="hover:text-blue-300 transition-colors">Website Design Cost Guide</Link></li>
+                  <li><Link to="/website-banwane-wali-company-bulandshahr" className="hover:text-blue-300 transition-colors">Website Banwane Wali Company</Link></li>
                 </ul>
               </div>
             </div>

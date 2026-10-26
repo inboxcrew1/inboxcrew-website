@@ -25,7 +25,7 @@ export const LOCATIONS_LIST: LocationItem[] = [
     title: 'Best Website & Digital Marketing Agency in Bulandshahr | InboxCrew',
     metaDesc: 'InboxCrew is recognized as the best website development company, branding studio, and digital marketing agency in Bulandshahr. High-performance websites starting at ₹6,000, local SEO, Meta Ads & Google Business optimization.',
     h1: 'Best Website Development & Digital Marketing Agency in Bulandshahr',
-    heroSubtitle: 'Headquartered in Bulandshahr — Rated the #1 best website development and digital marketing agency for Bulandshahr shops, manufacturers, clinics, and startups.',
+    heroSubtitle: 'Headquartered in Bulandshahr - Rated the #1 best website development and digital marketing agency for Bulandshahr shops, manufacturers, clinics, and startups.',
     localIntro: 'As the flagship creative technology lab and best digital marketing agency rooted in Bulandshahr, InboxCrew delivers international-grade website development, e-commerce storefronts, brand identity design, and social media growth to businesses across Bulandshahr, Khurja, Sikandrabad, and Western UP.',
     businessFocus: [
       'Retail Stores & Local Showrooms',
@@ -149,7 +149,7 @@ export const LOCATIONS_LIST: LocationItem[] = [
     faqs: [
       {
         question: 'How quickly can InboxCrew deploy a professional website in Delhi NCR?',
-        answer: 'Our Starter websites deploy in 3–5 business days, while comprehensive custom Professional and E-Commerce platforms are delivered in 7–15 days.',
+        answer: 'Our Starter websites deploy in 3-5 business days, while comprehensive custom Professional and E-Commerce platforms are delivered in 7-15 days.',
       },
     ],
   },

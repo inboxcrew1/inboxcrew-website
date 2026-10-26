@@ -47,7 +47,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenContactWithPac
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Digital Services & Capabilities — InboxCrew Digital Lab"
+        title="Digital Services & Capabilities - InboxCrew Digital Lab"
         description="Comprehensive web development, e-commerce, customer support outsourcing, brand identity, and social growth systems engineered for high conversion."
         canonicalPath="/services"
         schema={servicesSchema}

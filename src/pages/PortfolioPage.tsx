@@ -15,7 +15,7 @@ export const PortfolioPage: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none pt-28 pb-20 overflow-hidden">
       <SEOHead
-        title="Selected Work & Case Studies — InboxCrew Digital Lab"
+        title="Selected Work & Case Studies - InboxCrew Digital Lab"
         description="Browse our portfolio of high-conversion websites, direct-to-consumer e-commerce stores, brand identity systems, and digital marketing campaigns."
         canonicalPath="/portfolio"
         schema={portfolioSchema}

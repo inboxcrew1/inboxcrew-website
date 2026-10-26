@@ -7,7 +7,7 @@ export const NotFoundPage: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen bg-black text-white font-mono select-none flex flex-col items-center justify-center px-6 text-center overflow-hidden">
       <SEOHead
-        title="404 — Page Went Offline | InboxCrew"
+        title="404 - Page Went Offline | InboxCrew"
         description="The requested page could not be located on the InboxCrew digital network."
         canonicalPath="/404"
       />

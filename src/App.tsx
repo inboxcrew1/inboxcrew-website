@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { SystemBoot } from './components/SystemBoot';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -38,7 +38,7 @@ function AppContent() {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isHandshakeOpen, setIsHandshakeOpen] = useState(false);
   const [isDigitalModeActive, setIsDigitalModeActive] = useState(false);
-  const [selectedService, setSelectedService] = useState('Digital Growth Package — All-in-One Launch (₹35,000)');
+  const [selectedService, setSelectedService] = useState('Digital Growth Package - All-in-One Launch (₹35,000)');
 
   // Handler to open contact modal with pre-selected package
   const handleOpenContactWithPackage = (pkgName?: string) => {
@@ -108,6 +108,32 @@ function AppContent() {
               />
             ))}
 
+            
+            {/* Legacy & Synonym Redirect Aliases (301-Equivalent Client Navigation) */}
+            <Route path="/website-developer-bulandshahr" element={<Navigate to="/website-development-bulandshahr" replace />} />
+            <Route path="/seo-agency-bulandshahr" element={<Navigate to="/seo-services-bulandshahr" replace />} />
+            <Route path="/digital-marketing-agency-khurja" element={<Navigate to="/marketing-agency-khurja" replace />} />
+            <Route path="/digital-marketing-agency-sikandrabad" element={<Navigate to="/marketing-agency-sikandrabad" replace />} />
+            <Route path="/digital-marketing-agency-anupshahr" element={<Navigate to="/marketing-agency-anupshahr" replace />} />
+            <Route path="/digital-marketing-agency-jahangirabad" element={<Navigate to="/marketing-agency-jahangirabad" replace />} />
+            <Route path="/website-cost-in-bulandshahr" element={<Navigate to="/website-design-cost-bulandshahr" replace />} />
+            <Route path="/digital-marketing-cost-in-bulandshahr" element={<Navigate to="/digital-marketing-agency-bulandshahr" replace />} />
+            <Route path="/how-to-choose-marketing-agency-bulandshahr" element={<Navigate to="/best-marketing-agency-bulandshahr" replace />} />
+            <Route path="/school-college-website-development-bulandshahr" element={<Navigate to="/digital-marketing-for-schools-bulandshahr" replace />} />
+            <Route path="/hospital-clinic-marketing-bulandshahr" element={<Navigate to="/digital-marketing-for-hospitals-bulandshahr" replace />} />
+            <Route path="/restaurant-cafe-marketing-bulandshahr" element={<Navigate to="/digital-marketing-for-restaurants-bulandshahr" replace />} />
+            <Route path="/hotel-resort-website-marketing-bulandshahr" element={<Navigate to="/website-for-hotels-bulandshahr" replace />} />
+            <Route path="/coaching-institute-marketing-bulandshahr" element={<Navigate to="/website-design-for-coaching-centres-bulandshahr" replace />} />
+            <Route path="/gym-fitness-marketing-bulandshahr" element={<Navigate to="/digital-marketing-for-local-shops-bulandshahr" replace />} />
+            <Route path="/car-dealer-automobile-marketing-bulandshahr" element={<Navigate to="/digital-marketing-agency-transport-nagar-bulandshahr" replace />} />
+            <Route path="/interior-designer-architect-website-bulandshahr" element={<Navigate to="/website-for-property-dealers-bulandshahr" replace />} />
+            <Route path="/b2b-industrial-manufacturer-marketing-bulandshahr" element={<Navigate to="/digital-marketing-for-manufacturers-bulandshahr" replace />} />
+            <Route path="/digital-marketing-services-noida-bulandshahr" element={<Navigate to="/locations/noida" replace />} />
+            <Route path="/wordpress-developer-bulandshahr" element={<Navigate to="/business-website-design-bulandshahr" replace />} />
+            <Route path="/custom-web-development-bulandshahr" element={<Navigate to="/website-development-bulandshahr" replace />} />
+            <Route path="/website-redesign-services-bulandshahr" element={<Navigate to="/website-redesign-bulandshahr" replace />} />
+            <Route path="/website-maintenance-services-bulandshahr" element={<Navigate to="/website-maintenance-bulandshahr" replace />} />
+            <Route path="/google-my-business-optimization-bulandshahr" element={<Navigate to="/local-seo-services-bulandshahr" replace />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </ErrorBoundary>

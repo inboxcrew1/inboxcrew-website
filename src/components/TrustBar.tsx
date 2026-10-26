@@ -8,7 +8,7 @@ export const TrustBar: React.FC = () => {
     { label: 'Businesses Served', value: '100+', icon: Users, detail: 'India & International' },
     { label: 'Countries Reached', value: '10+', icon: Globe, detail: 'Global Client Network' },
     { label: 'Client Satisfaction', value: '98%', icon: HeartHandshake, detail: 'Long-term Partnerships' },
-    { label: 'Fast Turnaround', value: '3–5 Days', icon: Zap, detail: 'Starter Web Launches' },
+    { label: 'Fast Turnaround', value: '3-5 Days', icon: Zap, detail: 'Starter Web Launches' },
   ];
 
   return (

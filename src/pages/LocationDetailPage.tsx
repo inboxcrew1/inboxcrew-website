@@ -21,7 +21,7 @@ export const LocationDetailPage: React.FC<LocationDetailPageProps> = ({ onOpenCo
   const localSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: `InboxCrew — ${location.city}`,
+    name: `InboxCrew - ${location.city}`,
     url: `https://inboxcrew.in/locations/${location.slug}`,
     telephone: '+918534040174',
     email: 'info@inboxcrew.in',
@@ -107,7 +107,7 @@ export const LocationDetailPage: React.FC<LocationDetailPageProps> = ({ onOpenCo
                 <div className="text-xs space-y-2 text-zinc-300">
                   <div><strong className="text-white">Direct Line:</strong> <a href="tel:+918534040174" className="text-blue-400">+91 8534040174</a></div>
                   <div><strong className="text-white">Email:</strong> <a href="mailto:info@inboxcrew.in" className="text-blue-400">info@inboxcrew.in</a></div>
-                  <div><strong className="text-white">Turnaround:</strong> 3–5 Days Delivery</div>
+                  <div><strong className="text-white">Turnaround:</strong> 3-5 Days Delivery</div>
                 </div>
               </div>
             </TiltCard3D>

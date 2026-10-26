@@ -99,7 +99,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     number: '05',
     title: 'Instagram Management & Growth',
     shortDesc: 'Strategic social presence, viral reels editing, and ROI-driven Meta Ads campaigns.',
-    fullDesc: 'Turn social channels into consistent revenue streams. InboxCrew manages your entire Instagram and digital marketing lifecycle—from high-retention reels editing to targeted Meta Ads and community management.',
+    fullDesc: 'Turn social channels into consistent revenue streams. InboxCrew manages your entire Instagram and digital marketing lifecycle - from high-retention reels editing to targeted Meta Ads and community management.',
     iconName: 'marketing',
     systemCode: 'GROWTH_ENGINE',
     deliverables: [

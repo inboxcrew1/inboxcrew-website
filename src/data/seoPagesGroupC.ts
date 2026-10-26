@@ -100,7 +100,7 @@ export const SEO_PAGES_GROUP_C: SEOServicePage[] = [
     deliverables: [
       { title: 'Project Landing Page with Interactive Master Plans', desc: 'High-speed landing page featuring plot dimensions, pricing slabs, RERA details, and downloadable brochure PDFs.' },
       { title: 'Targeted Meta & Instagram Video Ad Campaigns', desc: 'Reaching investors, NCR commuters, business families, and NRIs with high purchasing power.' },
-      { title: 'Lead Qualification & Anti-Spam Filtering', desc: 'Questionnaire forms filtering by budget (e.g. ₹25L–₹50L, ₹50L+) to deliver serious property buyers.' },
+      { title: 'Lead Qualification & Anti-Spam Filtering', desc: 'Questionnaire forms filtering by budget (e.g. ₹25L-₹50L, ₹50L+) to deliver serious property buyers.' },
       { title: 'Instant WhatsApp Lead Notifications', desc: 'Lead contacts dispatched immediately to your on-site sales managers for instant follow-up.' },
     ],
     processSteps: [
@@ -110,7 +110,7 @@ export const SEO_PAGES_GROUP_C: SEOServicePage[] = [
       { step: '04', title: 'Daily Lead Delivery & Optimization', desc: 'Refine targeting based on site visit conversion rates and buyer feedback.' },
     ],
     pricingFactors: [
-      { factor: 'Lead Volume Targets', detail: 'Plotted launch (100–300 monthly inquiries) vs. niche luxury commercial units.' },
+      { factor: 'Lead Volume Targets', detail: 'Plotted launch (100-300 monthly inquiries) vs. niche luxury commercial units.' },
       { factor: 'Video Asset Production', detail: 'Client-provided footage vs. on-site drone shoots and professional voiceover production.' },
     ],
     pricingStartingAt: 'Campaign Management starting at ₹12,000 / month',
@@ -175,7 +175,7 @@ export const SEO_PAGES_GROUP_C: SEOServicePage[] = [
       'Senior Secondary and Residential Boarding Schools in nearby regions',
     ],
     deliverables: [
-      { title: 'Annual Admission Marketing Funnels (Meta & Google)', desc: 'Targeted campaigns reaching parents within a 15–20 km radius during key admission months (January–April).' },
+      { title: 'Annual Admission Marketing Funnels (Meta & Google)', desc: 'Targeted campaigns reaching parents within a 15-20 km radius during key admission months (January-April).' },
       { title: 'School Web Portal & Online Inquiry Forms', desc: 'Modern web portal showcasing academic achievements, sports infrastructure, lab facilities, and fee queries.' },
       { title: 'Campus Video Walkthrough & Event Reels', desc: 'Short-form social media videos highlighting sports day, science exhibitions, and annual celebrations.' },
       { title: 'Google Maps Presence & Review Architecture', desc: 'Accurate school location pins, bus route details, and positive verified parent feedback.' },
@@ -183,7 +183,7 @@ export const SEO_PAGES_GROUP_C: SEOServicePage[] = [
     processSteps: [
       { step: '01', title: 'Admission Goal & Fee Bracket Audit', desc: 'Identify target class grades, admission vacancies, and school USPs.' },
       { step: '02', title: 'Creative Campaign Planning', desc: 'Design flyers, parent testimonial reels, and mobile registration landing pages.' },
-      { step: '03', title: 'Ad Launch & Lead Qualification', desc: 'Deploy hyper-local demographic targeting reaching parents aged 25–45.' },
+      { step: '03', title: 'Ad Launch & Lead Qualification', desc: 'Deploy hyper-local demographic targeting reaching parents aged 25-45.' },
       { step: '04', title: 'Admission Office Lead Delivery', desc: 'Deliver student inquiry forms directly to your admissions office for prompt telephone follow-ups.' },
     ],
     pricingFactors: [
@@ -372,7 +372,7 @@ export const SEO_PAGES_GROUP_C: SEOServicePage[] = [
       { title: 'Google Business Profile Setup & Local Map Pinning', desc: 'Exact storefront photo, business hours, customer reviews, and clear directions on Google Maps.' },
       { title: 'WhatsApp Business Storefront & Product Showcase', desc: 'In-app product catalog allowing customers to browse current stock and prices on WhatsApp.' },
       { title: 'Festive & Seasonal Offer Social Media Graphics', desc: 'Custom festival creatives (Diwali, Eid, New Year, Wedding season) promoting discount offers.' },
-      { title: 'Hyper-Local Radius Advertising (3–5 km)', desc: 'Instagram and Facebook ads shown only to shoppers living within driving distance of your shop.' },
+      { title: 'Hyper-Local Radius Advertising (3-5 km)', desc: 'Instagram and Facebook ads shown only to shoppers living within driving distance of your shop.' },
     ],
     processSteps: [
       { step: '01', title: 'Storefront & Inventory Walkthrough', desc: 'Photograph your store facade, product displays, and gather top seasonal offers.' },

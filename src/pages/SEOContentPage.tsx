@@ -182,7 +182,7 @@ export const SEOContentPage: React.FC<SEOContentPageProps> = ({ page, onOpenCont
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-zinc-400">Delivery SLA:</span>
-                    <span className="text-white font-bold">3–10 Business Days</span>
+                    <span className="text-white font-bold">3-10 Business Days</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-zinc-400">Support Channel:</span>
