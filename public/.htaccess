@@ -2,20 +2,36 @@
   RewriteEngine On
   RewriteBase /
 
-  # 1. Canonical Redirect: Enforce HTTPS & Non-WWW (https://inboxcrew.in/)
-  RewriteCond %{HTTPS} off [OR]
+  # 1. Force HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+  # 2. Canonical WWW to Non-WWW (Exclude sitemap.xml and robots.txt so GSC never gets a 301 on either domain)
+  RewriteCond %{REQUEST_URI} !^/sitemap\.xml$ [NC]
+  RewriteCond %{REQUEST_URI} !^/robots\.txt$ [NC]
   RewriteCond %{HTTP_HOST} ^www\.inboxcrew\.in$ [NC]
   RewriteRule ^(.*)$ https://inboxcrew.in/$1 [L,R=301]
 
-  # 2. Prevent directory indexing
+  # 3. Prevent directory indexing
   Options -Indexes
 
-  # 3. SPA Fallback Routing for React
+  # 4. SPA Fallback Routing for React
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
+
+# Ensure proper MIME type and charset for XML & robots
+AddType application/xml;charset=UTF-8 .xml
+AddType text/plain;charset=UTF-8 .txt
+
+# Prevent CDN caching of sitemap & robots so Googlebot always fetches fresh 200 OK
+<FilesMatch "^(sitemap\.xml|robots\.txt)$">
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
+</FilesMatch>
 
 # Security Headers
 <IfModule mod_headers.c>

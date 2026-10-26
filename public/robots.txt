@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 
-# Canonical XML Sitemap
+# Canonical XML Sitemaps
 Sitemap: https://inboxcrew.in/sitemap.xml
+Sitemap: https://www.inboxcrew.in/sitemap.xml
